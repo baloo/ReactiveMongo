@@ -1,5 +1,6 @@
 language: scala
-script: sbt ++$SCALA_VERSION "test-only * -- -exclude testCommands --"
+script: env
+#sbt ++$SCALA_VERSION "test-only * -- -exclude testCommands --"
 scala:
   - "2.10.1"
   - "2.10.0"
